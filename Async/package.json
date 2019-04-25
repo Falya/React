@@ -1,0 +1,25 @@
+{
+  "name": "node-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node node_modules/webpack/bin/webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-env": "^2.4.1",
+    "babel-loader": "^7.1.5",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "readline-sync": "^1.4.9",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
